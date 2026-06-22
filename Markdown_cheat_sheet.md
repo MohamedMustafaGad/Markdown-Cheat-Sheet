@@ -1,25 +1,64 @@
 <!--
+Note:-
+All Thml Tags 
 
 -->
 
 # Markdown Cheat Sheet: Basics
 ___
 ## Content:-
-1. [Introduction](#what-is-markdown)
-2. [**Heading**]
-3. [**Text_Formatting**]
-4. [**Lists**]
-5. [**Links**]
-6. [**Photos**]
-7. [**Blockquotes_and_Code**]
-8. [**Tables**]
+1. **[Introduction](#1-what-is-markdown)**
+2. **[Heading](#2-heading)**
+3. **[Text_Formatting](#3-text-formatting)**
+4. **[Lines]**
+5. **[Lists]**
+6. **[Links]**
+7. **[Photos]**
+8. **[Blockquotes_and_Code]**
+9. **[Tables]**
 ___
-## What is *Markdown*
+## 1. What is *Markdown*
  is a lighweight markup language that allows you to write using an easy-to-read, easy-to-write plain test format, which can then be converted to valid HTML.
 
-**File extension** :-  (fileName).**md**
+**File extension** :-  `.md`
 
 ### Why use Markdown?
 - **Simplicity:** No need to learn complex HTML tage
 - **Compatibility:** Works on almost every platform (GitHub, Reddit)
 - **Focus:** Allows you to focus on the Content rather that the design
+___
+## 2. Heading
+ Heading are used to define the structure of your document, making it easier for the reader to navigate through the content.
+
+ ### How to use them?
+  You create headings by placing one or more `#` symbols at the beginning of a line.
+  The number of `#` symbols determines the level of the heading:
+  * #### H1 (Main Title)
+    use one `#` symbol
+  * #### H2 (Section)
+    use two `##` symbols
+  * #### H3 (Sub-Section)
+    use three `###` symbols
+
+    ### The difference between Headings:
+    ![The difference between headings](imgs/Headings.png)
+
+
+ ### Important Rules:
+ 1. Always ensure there is a space between the **#** symbol and the text
+ 2. Heading levels range from `H1` to `H6`
+ 3. Heading levels define the logical structure of your content, not just the font size
+___
+## 3. Text Formatting
+ Test formatting allows you to emphasize key points, organize information, and improve readability
+
+ ### Emphasis and Styling
+ * **Bold**: To make text stand out, wrap it with double asterisk `**` or  double underscore `__`
+
+ * *Italic*: To add emphasis to a word wrap it with a single asterisk `*` or a single underscore `_`
+
+ * ~~Strikethrough~~: To indicate a correction or removed text, wrap it with double tildes `~~`
+
+ ### Examples:
+  ![TextFormattings](imgs/TextFormattings.png)
+  ___
