@@ -1,7 +1,7 @@
 <!--
 Note:-
-All Thml Tags 
-
+All HTML Tags can be included
+Such as <h1>,buttons,<br> and others.
 -->
 
 # Markdown Cheat Sheet: Basics
@@ -10,7 +10,7 @@ ___
 1. **[Introduction](#1-what-is-markdown)**
 2. **[Heading](#2-heading)**
 3. **[Text_Formatting](#3-text-formatting)**
-4. **[Lines]**
+4. **[Horizontal_Lines](#4-horizontal-lines)**
 5. **[Lists]**
 6. **[Links]**
 7. **[Photos]**
@@ -61,4 +61,16 @@ ___
 
  ### Examples:
   ![TextFormattings](imgs/TextFormattings.png)
+  ___
+  ## 4. Horizontal Lines
+  Horizontal rules are used to create a visual break between sections of your document, helping to separate different topics clearly.
+
+  ### we can create it by:
+  * using Dashes: `---`
+  * using Asterisks: `***`
+  * using Underscores: `___`
+
+  ### Important rules:
+  * ensure that the line containing the symbols is empty(has no other text)
+  * number of symboles mustn't be less than 3  (three or more symbols)
   ___
