@@ -11,7 +11,10 @@ ___
 2. **[Heading](#2-heading)**
 3. **[Text_Formatting](#3-text-formatting)**
 4. **[Horizontal_Lines](#4-horizontal-lines)**
-5. **[Lists]**
+5. **[Lists](#5-lists)**
+    1. **[Unorder_Lists](#unordered-lists)**
+    2. **[Order_Lists](#ordered-lists)**
+    3. **[Nested_Lists](#nested-lists)**
 6. **[Links]**
 7. **[Photos]**
 8. **[Blockquotes_and_Code]**
@@ -59,8 +62,10 @@ ___
 
  * ~~Strikethrough~~: To indicate a correction or removed text, wrap it with double tildes `~~`
 
+ * <u>UnderLine</u>: to make an line under text. unfortunately, In Markdown, there is no standardized, universal syntax to create an underline like there is for bold or italics. For that, we can use HTML `<u> text </u>` or use css `<span style="text-decoration: underline;">Underlined text</span>`
+
  ### Examples:
-  ![TextFormattings](imgs/TextFormattings.png)
+  ![TextFormattings.png](imgs/TextFormattings.png)
   ___
   ## 4. Horizontal Lines
   Horizontal rules are used to create a visual break between sections of your document, helping to separate different topics clearly.
@@ -74,3 +79,31 @@ ___
   * ensure that the line containing the symbols is empty(has no other text)
   * number of symboles mustn't be less than 3  (three or more symbols)
   ___
+## 5. Lists
+  Lists are essential for organizing information. Markdown supports both unordered and ordered lists.
+
+  * ### Unordered Lists
+  Use these for items where the order does not matter
+
+  #### we can create it by:
+  * using an asterisk `*`
+  * using a dash `-`
+  * using a plus sign `+`
+
+  * ### Ordered Lists
+  use these for staps or sequences where order is important
+
+  #### we can create it by:
+  Start with a number followed by a period.
+
+  * ### Nested Lists
+  to create nested lists in markdown, the standard practice is to use 2 or 4 spaces for each level of indentation
+  
+  ### Example For Lists:
+  ![Lists.png](imgs/Lists.png)
+
+  ***Important Rules:***
+  * make sure that there is a space between the symbols of Lists and the statement
+  * For nested lists, make sure that every level of nested list made with No.tabs
+  * It's said that using space bar is safer than using tab, `Tabs can sometimes cause rendering issues across different platforms (like GitHub vs. local viewers).`
+___
