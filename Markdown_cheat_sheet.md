@@ -15,7 +15,7 @@ ___
     1. **[Unorder_Lists](#unordered-lists)**
     2. **[Order_Lists](#ordered-lists)**
     3. **[Nested_Lists](#nested-lists)**
-6. **[Links]**
+6. **[Links](#6-links)**
 7. **[Photos]**
 8. **[Blockquotes_and_Code]**
 9. **[Tables]**
@@ -107,3 +107,39 @@ ___
   * For nested lists, make sure that every level of nested list made with No.tabs
   * It's said that using space bar is safer than using tab, `Tabs can sometimes cause rendering issues across different platforms (like GitHub vs. local viewers).`
 ___
+## 6. Links
+  Links are essential for connecting your documentation to external resources or navigating within the same document.
+
+  ### Types of Links :-
+  * #### External Links
+    To link to a website, place the link text in brackets `[]` followed by the URL in parentheses `()`.
+    <br>
+    Syntax: `[google link](https://www.google.com)`
+    Result: [google link](https://www.google.com)
+    <br>
+  * #### Internal Links (Anchor Links)
+    You can link to a specific section within the same file
+    <br>
+    **Note:-** Markdown generate an ID for every heading automatically (<u>lowercase, spaces replaced by dashes</u>).
+    <br>
+    Syntax: `[Go to Heading](#markdown-cheat-sheet-basics)`
+    Result: [Go to Heading](#markdown-cheat-sheet-basics)
+    <br>
+  * #### Email Links
+    You can create a direct link to an email addeess using the `mailto:` Protocol.
+
+    ##### what is mailto: protocol?
+      mailto: protocol is a Uniform Resource Identifier (URL) scheme used in HTML to create hyperlinks that automatically open a user's default email client when clicked.
+      <br>
+    Syntax: `<mo8729_11@outlook.com>`
+    Result: <mo8729_11@outlook.com>
+    <br>
+    to change the viewed text
+    Syntax: `[my email](mailto:mo8729_11@outlook.com)`
+    Result: [my email](mailto:mo8729_11@outlook.com)
+    <br>
+    **Important Rules:** 
+    * No spaces: there must be no space between the bracket `[]` and the parenthesis `()`
+    * Internal Links: Always ensure your internal anchor link matches your heading title exactly to avoid broken navigation
+    ___
+     
