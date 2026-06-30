@@ -16,7 +16,7 @@ ___
     2. **[Order_Lists](#ordered-lists)**
     3. **[Nested_Lists](#nested-lists)**
 6. **[Links](#6-links)**
-7. **[Photos]**
+7. **[Photos](#7-photos)**
 8. **[Blockquotes_and_Code]**
 9. **[Tables]**
 ___
@@ -114,16 +114,16 @@ ___
   * #### External Links
     To link to a website, place the link text in brackets `[]` followed by the URL in parentheses `()`.
     <br>
-    Syntax: `[google link](https://www.google.com)`
-    Result: [google link](https://www.google.com)
+    * Syntax: `[google link](https://www.google.com)`
+    * Result: [google link](https://www.google.com)
     <br>
   * #### Internal Links (Anchor Links)
     You can link to a specific section within the same file
     <br>
     **Note:-** Markdown generate an ID for every heading automatically (<u>lowercase, spaces replaced by dashes</u>).
     <br>
-    Syntax: `[Go to Heading](#markdown-cheat-sheet-basics)`
-    Result: [Go to Heading](#markdown-cheat-sheet-basics)
+    * Syntax: `[Go to Heading](#markdown-cheat-sheet-basics)`
+    * Result: [Go to Heading](#markdown-cheat-sheet-basics)
     <br>
   * #### Email Links
     You can create a direct link to an email addeess using the `mailto:` Protocol.
@@ -131,15 +131,26 @@ ___
     ##### what is mailto: protocol?
       mailto: protocol is a Uniform Resource Identifier (URL) scheme used in HTML to create hyperlinks that automatically open a user's default email client when clicked.
       <br>
-    Syntax: `<mo8729_11@outlook.com>`
-    Result: <mo8729_11@outlook.com>
+    * Syntax: `<mo8729_11@outlook.com>`
+    * Result: <mo8729_11@outlook.com>
     <br>
     to change the viewed text
-    Syntax: `[my email](mailto:mo8729_11@outlook.com)`
-    Result: [my email](mailto:mo8729_11@outlook.com)
+    * Syntax: `[my email](mailto:mo8729_11@outlook.com)`
+    * Result: [my email](mailto:mo8729_11@outlook.com)
     <br>
     **Important Rules:** 
     * No spaces: there must be no space between the bracket `[]` and the parenthesis `()`
     * Internal Links: Always ensure your internal anchor link matches your heading title exactly to avoid broken navigation
-    ___
-     
+___
+## 7. Photos
+  Images are essential for making your documentation more visual and easier to understand.
+  it's similar to links but with an Exclamation mark `!` at the beginning & putting the URL or path of photo.
+
+  * Syntax: `![Alt text](URL_or_Path)`
+
+  **Note:-** `[Alt text]`: a description of the image. this is important for accessibility (screen readers) and displays if the image fails to load.
+
+  ***Important Rules:-***
+  * No Spaces: just like links
+  * Local paths: if your image is in a folder make sure the path is correct relative to your `.md` file.
+  ___
