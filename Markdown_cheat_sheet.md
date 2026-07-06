@@ -17,8 +17,9 @@ ___
     3. **[Nested_Lists](#nested-lists)**
 6. **[Links](#6-links)**
 7. **[Photos](#7-photos)**
-8. **[Blockquotes_and_Code]**
-9. **[Tables]**
+8. **[Blockquotes](#8-blockquotes)**
+9. **[Codes](#9-codes)**
+10. **[Tables]()**
 ___
 ## 1. What is *Markdown*
  is a lighweight markup language that allows you to write using an easy-to-read, easy-to-write plain test format, which can then be converted to valid HTML.
@@ -51,6 +52,7 @@ ___
  1. Always ensure there is a space between the **#** symbol and the text
  2. Heading levels range from `H1` to `H6`
  3. Heading levels define the logical structure of your content, not just the font size
+ 4. there is an old method that named "setext heading". if we place a line of text followed immediately by `---` on the next line, the Markdown parser interprets that text as an `<h1>`(Main Heading) rather than a horizontal line
 ___
 ## 3. Text Formatting
  Test formatting allows you to emphasize key points, organize information, and improve readability
@@ -154,3 +156,41 @@ ___
   * No Spaces: just like links
   * Local paths: if your image is in a folder make sure the path is correct relative to your `.md` file.
   ___
+## 8. Blockquotes
+  These features are essentail for highlighting notes, citations, or displaying tectnical code snippets.
+
+   1. **Blockquotes**
+    use blockquotes to highlight a quote from another source or to draw attention to specific notes.<br><br>
+
+      **syntax:-** 
+      * Start the line with a greater-than symbol `>`
+      * You can nest blockquotes by using multiple greater-than symbols `>>` `>>>`<br><br>
+
+      **Example:-**
+      > This is a blockquote.
+      It can span multipe line, As long as there is no `enter` space between the two lines.
+
+      **Note:-** you can include other Markdown elements inside a blockquote (like lists or bold text).
+      ___
+## 9. Codes
+  Markdown offers two ways to display code:inline and blocks.
+
+  * inline Code:- User single backticks (`) to format text as code within a sentence.
+
+    * Example:- `Code here`
+
+  * Code Blocks: use triple backticks(```) at the start and end of the block to display multiple lines of code.
+  * there is another way to create it by start with 4 spaces or one tab. but it isn't efficienty like the first way.
+
+    * syntax:-
+    ```js
+     let variable = 10;
+    ```
+
+  * **Notes:-**
+    
+    * Language Highlighting: add the language name after the first triple backticks for syntax highlighting. For examples:-(python, java, js, vhdl ,..).
+    * inline code is best for short commands or file names
+    * Ensure the code block is on its own line to render correctly.
+    * Remember: Always leave an empty line before starting a code block if you are following a paragraph, otherwise, it might not render as intended.
+    ___
