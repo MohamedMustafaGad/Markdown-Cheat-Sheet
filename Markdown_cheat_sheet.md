@@ -19,7 +19,7 @@ ___
 7. **[Photos](#7-photos)**
 8. **[Blockquotes](#8-blockquotes)**
 9. **[Codes](#9-codes)**
-10. **[Tables]()**
+10. **[Tables](#10-tables)**
 ___
 ## 1. What is *Markdown*
  is a lighweight markup language that allows you to write using an easy-to-read, easy-to-write plain test format, which can then be converted to valid HTML.
@@ -193,4 +193,29 @@ ___
     * inline code is best for short commands or file names
     * Ensure the code block is on its own line to render correctly.
     * Remember: Always leave an empty line before starting a code block if you are following a paragraph, otherwise, it might not render as intended.
-    ___
+  ___
+## 10. Tables
+Tables are used to organize structured data clearly. Markdown uses vertical pipes (`|`) and hyphens (`-`) to create this structure.
+
+### Syntax:
+* **Header Row:** Create column names separated by `|`.
+* **Delimiter Row:** Use at least three dashes `---` for each column, separated by `|`. This row tells the parser it is a table.
+* **Data Rows:** Fill in your content row by row, ensuring the same number of columns as the header.
+
+### Example:
+| Name | Age | Major |
+| :--- | :---: | ---: |
+| Mohamed | 21 | Computer Eng |
+| Ali | 22 | Electronics |
+
+### Alignment:
+You can control text alignment by adding colons (`:`) in the delimiter row:
+* **Left Alignment:** `:---`
+* **Right Alignment:** `---:`
+* **Center Alignment:** `:---:`
+
+### Important Rules:
+* **Pipes:** While not strictly required at the start and end of rows, using them provides better compatibility across different platforms like GitHub.
+* **Spacing:** You can add extra spaces to align the pipes in your raw code for better readability; it will not affect the final output.
+* **Line Breaks:** Standard Markdown does not support multi-line text inside a table cell. Use `<br>` if you need a line break within a cell.
+* **Spacing:** Always ensure there is an empty line before starting a table, or it may not render correctly.
