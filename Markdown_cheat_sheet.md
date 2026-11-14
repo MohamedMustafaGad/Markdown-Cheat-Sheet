@@ -20,6 +20,12 @@ ___
 8. **[Blockquotes](#8-blockquotes)**
 9. **[Codes](#9-codes)**
 10. **[Tables](#10-tables)**
+11. **[Task_Lists](#11-task-lists)**
+12. **[Collapsible Sections](#12-collapsible-sections-details--summary)**
+___
+> **Note:**
+> 1. All HTML Tags can be included and work seamlessly.
+> 2. Please review the code alongside its rendered output to ensure maximum understanding and benefit.
 ___
 ## 1. What is *Markdown*
  is a lighweight markup language that allows you to write using an easy-to-read, easy-to-write plain test format, which can then be converted to valid HTML.
@@ -219,3 +225,57 @@ You can control text alignment by adding colons (`:`) in the delimiter row:
 * **Spacing:** You can add extra spaces to align the pipes in your raw code for better readability; it will not affect the final output.
 * **Line Breaks:** Standard Markdown does not support multi-line text inside a table cell. Use `<br>` if you need a line break within a cell.
 * **Spacing:** Always ensure there is an empty line before starting a table, or it may not render correctly.
+  ___
+## 11. Task Lists
+Task lists allow you to create a list of items with checkboxes. This is extremely useful for tracking project tasks, especially on platforms like GitHub.
+
+### Syntax:
+* Start the list item with a dash `-`, followed by a space, brackets `[ ]` for an uncompleted task, or `[x]` for a completed task.
+* **Uncompleted Task:** `- [ ] Task to do`
+* **Completed Task:** `- [x] Finished task`
+
+### Example:
+- [x] Learn Markdown basics
+- [x] Create the cheat sheet document
+- [ ] Share it on GitHub
+
+### Important Rules:
+* **Case Sensitivity:** Use a lowercase `x` inside the brackets (`[x]`) to check the box. Capital `X` may not work on some renderers.
+* **Interactivity:** On platforms like GitHub or local Markdown previewers with checkbox support, you can actually click the checkboxes to check/uncheck them directly.
+___
+## 12. Collapsible Sections (Details & Summary)
+Collapsible sections allow you to hide large blocks of text, code, or explanations behind a clickable summary title. This keeps your documentation clean and prevents clutter.
+
+### Syntax:
+Use the HTML `<details>` and `<summary>` tags directly inside your Markdown file:
+
+```html
+<details>
+<summary>Click here to expand/collapse</summary>
+
+Here is the hidden content, notes, or code blocks that you want to reveal upon clicking!
+
+</details>
+```
+
+### Practical Example:
+Here is how you can use a collapsible section to hide a long code snippet or detailed explanation:
+
+<details>
+<summary>Click here to view the Text</summary>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt obcaecati enim eveniet provident! Dicta delectus recusandae corporis, fuga ut reiciendis dolorum. Repudiandae sunt commodi iste debitis corporis dolore. Totam.
+</details>
+
+___
+
+### Important Rules:
+* **HTML Integration**: Since standard Markdown doesn't have a native collapsible syntax, we rely on HTML tags (&lt;details&gt; and &lt;summary&gt;), which are fully supported on GitHub and most modern Markdown viewers.
+
+* **Spacing**: Always leave an empty line inside the tags before writing your block content to ensure markdown elements (like code blocks or lists) render correctly.
+___
+
+```
+"Good documentation is like a love letter to your future self."
+— Damian Conway
+```
+___
